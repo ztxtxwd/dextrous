@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "feishu": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote","http://localhost:8788/mcp"]
+    }
+  },
+  "globalSettings": {
+    "timeout": 30000,
+    "retryAttempts": 3,
+    "logLevel": "info"
+  }
+}
