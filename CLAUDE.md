@@ -27,3 +27,8 @@ export function double(x: number): number {
   const result = x * 2
   return result
 }
+```
+After:
+```ts
+export const double=x=>x*2
+```
